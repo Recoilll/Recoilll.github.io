@@ -450,6 +450,10 @@ span {
     z-index: 1;
 }
 
+#particles-js {
+
+}
+
 .bg-buy::before {
     content: '';
     position: absolute;
