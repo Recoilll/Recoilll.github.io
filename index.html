@@ -189,9 +189,12 @@
                 });
             }
         })</script>
-            <audio controls autoplay loop>
-                <source class="m animatedcard" src="MightNot.mp3">
+            <audio controls autoplay="" loop src="MightNot.mp3">
                 This browser does not support HTML5 audio
+                <script>
+                    var audio = document.currentScript.parentElement;
+                    audio.volume = 0.0344;
+                </script>
             </audio>
 </body>
 </body>
